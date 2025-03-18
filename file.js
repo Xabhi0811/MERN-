@@ -8,7 +8,6 @@ abhi.get('/',function(req,res,next){
             msg:"invaild"
         });
 
-
         
     }else{
         next();
