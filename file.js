@@ -7,8 +7,6 @@ abhi.get('/',function(req,res,next){
         res.status(500).json({
             msg:"invaild"
         });
-
-        
     }else{
         next();
     }
