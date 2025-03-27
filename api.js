@@ -11,7 +11,6 @@
     <button onclick="getanimal()">getanimal</button>
 </body>
 <script>
-    
     async function getanimal()
     {
         
