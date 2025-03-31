@@ -13,9 +13,7 @@ abhi.get('/',function(req,res,next){
 },
          
 function(req,res){
-    console.log('you are corect'+ username,passwars +'passwaord')
-}
-
+    console.log('you are corect'+ username,passwars +'passwaord')}
 );
 abhi.listen(3000);
 
