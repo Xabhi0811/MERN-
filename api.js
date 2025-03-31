@@ -16,8 +16,7 @@
         
      const response = await fetch("https://catfact.ninja/fact")
     const final = await response.json()
-    console.log(final);
-        
+    console.log(final);  
     }
 </script>
 </html>
