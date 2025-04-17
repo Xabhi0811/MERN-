@@ -16,5 +16,6 @@
     const final = await response.json()
     console.log(final);  
     }
+    
 </script>
 </html>
