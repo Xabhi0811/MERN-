@@ -12,6 +12,7 @@
 <script>
     async function getanimal()
     {
+        
      const response = await fetch("https://catfact.ninja/fact")
     const final = await response.json()
     console.log(final);  
